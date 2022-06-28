@@ -1,5 +1,5 @@
-const phoneInputField = document.querySelector("#telefone");
-const phoneInput = window.intlTelInput(phoneInputField, {
+const listaTelefone = document.querySelector("#telefone");
+const entradaTelefone = window.intlTelInput(listaTelefone, {
   utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
 });
 
