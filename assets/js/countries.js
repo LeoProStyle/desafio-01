@@ -273,6 +273,7 @@ function print_country(country_id){
 }
 
 function print_state(state_id, state_index){
+	
 	var option_str = document.getElementById(state_id);		
 	option_str.length=0;
 	option_str.options[0] = new Option('Selecione o Estado','');
